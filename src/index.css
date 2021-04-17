@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  scrollbar-color: #0064a7 #8ea5b5;
+  scrollbar-width: auto;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(71, 93, 235, 0.5);
+}
+::-webkit-scrollbar {
+  width: auto;
+  background: #8ea5b5;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow-anchor: inherit;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  background: #0064a7;
+  box-shadow: -1px 4px 20px -6px rgba(63, 45, 45, 0.3);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'Amiri Bold';
+  src: url('./assets/fonts/Amiri-Bold.ttf');
+}
+@font-face {
+  font-family: 'Amiri Bold Italic';
+  src: url('./assets/fonts/Amiri-BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'Amiri Italic';
+  src: url('./assets/fonts/Amiri-Italic.ttf');
+}
+@font-face {
+  font-family: 'Amiri Regular';
+  src: url('./assets/fonts/Amiri-Regular.ttf');
+}
+@font-face {
+  font-family: 'Noore Hidayat';
+  src: url('./assets/fonts/noorehidayat.ttf');
+}
+@font-face {
+  font-family: 'MADDINA';
+  src: url('./assets/fonts/MADDINA.ttf');
+}

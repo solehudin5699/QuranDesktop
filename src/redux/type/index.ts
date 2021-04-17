@@ -1,0 +1,5 @@
+export const actions = {
+  GET_LIST_SURAT: 'GET_LIST_SURAT',
+  GET_SPECIFIC_SURAT: 'GET_SPECIFIC_SURAT',
+  IS_LOADING: 'IS_LOADING',
+};
