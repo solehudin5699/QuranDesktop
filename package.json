@@ -68,7 +68,8 @@
     "win": {
       "target": [
         "nsis"
-      ]
+      ],
+      "icon": "./assets/icons/512x512.png"
     },
     "linux": {
       "target": [

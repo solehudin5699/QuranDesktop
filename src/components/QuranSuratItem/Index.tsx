@@ -106,7 +106,7 @@ export default function Index(props:any) {
                   Tafsir
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails style={{ paddingLeft: '0px', paddingRight: '0px' }}>
                 <Typography paragraph>{tafsir.id}</Typography>
               </AccordionDetails>
             </Accordion>
