@@ -52,7 +52,7 @@ electron-react-boilerplate](https://github.com/electron-react-boilerplate/electr
 
 ## Demo
 
-Download and install in desktop : 
+Download and install on desktop : 
 
 <a href="https://drive.google.com/file/d/1SwM1PovWDOZvo8q3U1iNUFGqsMyBl2Bo/view?usp=sharing">
   <img src="https://img.shields.io/badge/Download%20on%20the-Google%20Drive-blue.svg?style=popout&logo=google-drive"/>
