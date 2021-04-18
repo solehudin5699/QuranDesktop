@@ -3,10 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import {
   AppBar,
   IconButton,
-  // List,
-  // ListItem,
+  List,
+  ListItem,
   // ListItemIcon,
-  // ListItemText,
+  ListItemText,
   Toolbar,
   CssBaseline,
   SwipeableDrawer,
@@ -111,6 +111,23 @@ export default function Index(props:any) {
             </ListItem>
           </List> */}
           {props.customMenu && props.customMenu(drawer)}
+          <List
+            style={{
+              borderTop: '1px solid #FFFFFF',
+              borderTopColor: '#FFFFFF',
+            }}
+          >
+            <ListItem button>
+              <ListItemText
+                primary="Created By Solehudin"
+                style={{
+                  color: '#FFFFFF',
+                  textAlign: 'center',
+                  fontSize: '9px',
+                }}
+              />
+            </ListItem>
+          </List>
         </SwipeableDrawer>
         {props.children}
       </React.Fragment>
